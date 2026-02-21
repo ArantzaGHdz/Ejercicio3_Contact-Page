@@ -23,7 +23,7 @@ Este proyecto trata de una página web que se utiliza como formulario de cliente
 ## 🔗 Enlace al proyecto
 
 Repositorio en GitHub: [https://github.com/ArantzaGHdz/Ejercicio3_Contact-Page]  
-Deploy: []
+Deploy: [https://arantzaghdz.github.io/Ejercicio3_Contact-Page/]
 
 ---
 
