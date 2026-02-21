@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" href="images/" type="image/x-icon" sizes="96x96" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <img src="images/Logo.svg" alt="" class="logo" />
+    <header class="title">
+      <h1>Interested in our business pricing?</h1>
+      <p id="subtitle">
+        Fill out the form to view details and we’ll contact you as soon as
+        possible.
+      </p>
+    </header>
+    <main>
+      <form action="">
+        <div class="form-input">
+          <div class="input-text">
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="Ethan Johnson" />
+          </div>
+          <div class="input-text">
+            <label for="company-email">Company Email</label>
+            <input
+              type="email"
+              name="company-email"
+              placeholder="ethan@johnson.com"
+            />
+          </div>
+        </div>
+        <div class="form-input">
+          <div class="input-dropdown">
+            <label for="company-size">Company Size</label>
+            <select name="company-size">
+              <option value="50-100-employees">50-100 employees</option>
+              <option value="100-200-employees">100-200 employees</option>
+              <option value="200+-employees">200+ employees</option>
+            </select>
+          </div>
+          <div class="input-dropdown">
+            <label for="subject">Subject</label>
+            <select name="subject">
+              <option value="build-page">Building Landing pages</option>
+              <option value="download-page">Download Landing pages</option>
+              <option value="signup-page">Sign-up Landing pages</option>
+            </select>
+          </div>
+        </div>
+        <div class="input-message">
+          <label for="message">Message</label>
+          <textarea
+            name="message"
+            placeholder="50-100 employees"
+            cols="12"
+            rows="7"
+          ></textarea>
+        </div>
+        <div>
+          <input type="submit" value="Contact Sales" class="contact-sales" />
+        </div>
+      </form>
+    </main>
+
+    <div class="author-info">
+      Coded by <a href="#">Arantza Darina Gómez Hernández</a>
+    </div>
+  </body>
+</html>
